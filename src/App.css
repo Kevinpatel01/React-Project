@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+  text-align: center;
+  text-decoration: underline;
+  text-size-adjust: auto;
+  color: #d32f2f;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+.movie img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.selected-movie {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.selected-movie h2 {
+  margin-bottom: 10px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.selected-movie p{
+  color: black;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.selected-movie img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+
+.button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #3367d6;
+}
+
+.button button:active {
+  background-color: #2a56b9;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.back-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: #fff;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.back-button button:hover {
+  background-color: #d32f2f;
+}
+
+.back-button button:active {
+  background-color: #b22c2c;
+}
